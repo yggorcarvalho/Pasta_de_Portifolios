@@ -1,2 +1,2 @@
-# Portifóli 01
+# Portifólio 01
  Primeiros projetos front-end
