@@ -1,0 +1,96 @@
+.vagas {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 85%;
+    margin: 0 auto 100px auto;
+}
+
+.vagas__subtitulo {
+    color: var(--vermelho);
+    background: rgba(142, 36, 36, 0.05);
+    padding: 4px 12px;
+    font-size: 14px;
+    border-radius: 16px;
+}
+
+.vagas__titulo {
+    font-weight: 600;
+    font-size: 36px;
+    letter-spacing: -0.02em;
+    color: var(--preto);
+    margin: 20px auto;
+}
+
+.vagas__texto {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.vagas__imagem {
+    width: 100%;
+    margin: 64px auto;
+}
+
+.flex__lista {
+    width: 100%;
+}
+
+.vagas__lista {
+    width: 85%;
+    margin: 0 auto;
+}
+
+.vagas-abertas {
+    width: 100%;
+    display: flex;
+    margin: 0 auto;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-align: left;
+}
+
+.lista__titulo {
+    font-size: 20px;
+    color: var(--preto);
+    margin-bottom: 32px;
+}
+
+.vaga__aberta {
+    border: 1px solid var(--cinza-claro);
+    border-radius: 16px;
+    padding: 24px 24px 28px 24px;
+    margin-bottom: 24px;
+    cursor: pointer;
+}
+
+.vaga__aberta:hover {
+    background-color: var(--cinza-claro);
+}
+
+.lista__subtitulo {
+    font-size: 18px;
+    color: var(--preto);
+}
+
+.div__conteudo-vaga {
+    display: flex;
+    margin: 32px 0 0 0;
+}
+.lista__text__jornada {
+    margin-right: 25px;
+}
+
+@media screen and (max-width: 920px) {
+    .vagas {
+        margin-bottom: 50px;
+    }
+
+    .vagas__subtitulo {
+        font-size: 1rem;
+    }
+
+    .vagas__titulo {
+        font-size: 2rem;
+    }
+}

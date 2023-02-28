@@ -1,0 +1,67 @@
+.rodape {
+    background-color: var(--bege-claro);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    padding: 100px 0;
+}
+
+.rodape__titulo {
+    font-size: 36px;
+    font-weight: 600;
+    color: var(--preto);
+    letter-spacing: -0.02em;
+}
+
+.rodape__texto {
+    font-size: 20px;
+    font-weight: 400;
+    margin: 20px 0 40px 0;
+}
+
+.rodape__input-email {
+    border: 1px solid #D0D5DD;
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+    border-radius: 8px;
+    border-spacing: border-box;
+    padding: 12px 14px 12px 16px;
+    margin-right: 16px;
+    width: 30vw;
+    margin-bottom: 32px;
+}
+
+.rodape__input-email::placeholder {
+    color: var(--cinza);
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.rodape__credito {
+    font-weight: 400;
+    color: #98A2B3;
+}
+
+.button__cadastrar:hover {
+    cursor: pointer;
+    background-color: brown;
+    transform: scale(1.1);
+    transition: 0.2s;
+}
+
+@media screen and (max-width: 920px) {
+   .rodape__titulo {
+    font-size: 2rem;
+   } 
+
+   .rodape__input-email {
+    width: 50vw;
+   }
+   .rodape {
+    padding: 50px 0;
+    margin-top: 50px;
+   }
+}

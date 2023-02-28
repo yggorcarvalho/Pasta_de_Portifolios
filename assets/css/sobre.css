@@ -1,0 +1,39 @@
+.sobre  {
+    width: 55%;
+    margin: 0 auto 100px auto;
+    text-align: center;
+}
+
+.sobre__subtitulo {
+    color: var(--vermelho);
+    font-weight: 600;
+}
+
+.sobre__titulo {
+    margin: 24px 0 36px 0;
+    font-weight: 600;
+    font-size: 48px;
+    color: var(--preto);
+}
+
+.sobre__texto {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+@media screen and (max-width: 920px) {
+    .sobre {
+        width: 85%;
+        box-sizing: border-box;
+        margin-bottom: 50px;
+    }
+
+    .sobre__subtitulo {
+        font-size: 1rem;
+    }
+
+    .sobre__titulo{
+       font-size: 2rem;
+    }
+}

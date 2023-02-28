@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <title>OptimusTech</title>
+</head>
+<body>
+    <header class="cabecalho">
+        <nav class="navigation-menu">
+            <label
+              class="hamburger-icon"
+              aria-label="Abrir navigation menu"
+              for="menu-toggle"
+              >&#9776;</label
+            >
+            <input type="checkbox" id="menu-toggle" />
+            <ul class="main-navigation">
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Produtos</a></li>
+              <li><a href="#">Recursos</a></li>
+              <li><a href="#">Sobre nós</a></li>
+            </ul>
+        </nav>
+        <!-- logo do cabeçalho -->
+        <div class="cabecalho__logo">
+            <img src="./image/logo.svg" alt="Logo da OptimusTech">
+            <p class="logo__nome">OptimusTech</p>
+        </div>
+
+        <!-- Lista cabeçalho -->
+        <div class="cabecalho__lista-menu">
+            <ul class="menu__links">
+                <li><a class="menu__link" href="index.html">Home</a></li>
+                <li><a class="menu__link" href="#">Produtos</a></li>
+                <li><a class="menu__link" href="#">Recursos</a></li>
+                <li><a class="menu__link" href="#">Sobre nós</a></li>
+            </ul>
+        </div>
+
+        <!-- botões cabeçalho -->
+        <div class="cabecalho__buttons">
+            <button class="button__entrar">Entrar</button>
+            <button class="button__cadastrar">Cadastrar</button>
+        </div>
+    </header>
+
+    <!-- Sobre nós -->
+    <section class="sobre">
+        <span class="sobre__subtitulo">Sobre nós</span>
+        <h1 class="sobre__titulo">Por que somos diferentes?</h1>
+        <p class="sobre__texto">
+            Nós focamos nos detalhes de tudo que fazemos. Tudo para ajudar as empresas de todo o mundo a se concentrarem naquilo que é realmente importante para elas.
+        </p>
+    </section>
+
+    <!-- Métricas -->
+    <section class="metricas">
+        <div class="metrica">
+            <h2 class="metrica__titulo">400+</h2>
+            <p class="metrica__subtitulo">Projetos concluídos</p>
+            <p class="metrica__texto">Nós ajudamos a construir mais de 400 projetos incríveis.</p>
+        </div>
+        <div class="metrica">
+            <h2 class="metrica__titulo">100+</h2>
+            <p class="metrica__subtitulo">Colaboradores</p>
+            <p class="metrica__texto">Temos mais de 100 colaboradores no nosso time que se preocupam com nossos clientes.</p>
+        </div>
+        <div class="metrica">
+            <h2 class="metrica__titulo">20k</h2>
+            <p class="metrica__subtitulo">Downloads</p>
+            <p class="metrica__texto">Nossos projetos que estão disponíveis em lojas já foram baixados mais de 20.000 vezes.</p>
+        </div>
+        <div class="metrica">
+            <h2 class="metrica__titulo">500+</h2>
+            <p class="metrica__subtitulo">Reviews 5 estrelas</p>
+            <p class="metrica__texto">Estamos orgulhosos de contar com mais de 500 reviews 5 estrelas em nossos produtos.</p>
+        </div>
+    </section>
+
+    <!-- Vagas -->
+    <section class="vagas">
+        <div class="vagas__conteudo">
+            <span class="vagas__subtitulo">Vagas abertas!</span>
+            <h2 class="vagas__titulo">Estamos procurando por talentos</h2>
+            <p class="vagas__texto">
+                Somos uma equipe 100% remota com pessoas do Brasil inteiro.
+            </p>
+            <img src="./image/vagas.svg" alt="Imagem da seção de vagas" class="vagas__imagem">
+        </div>
+
+        <div class="vagas-abertas">
+            <div class="flex__lista">
+
+                <!-- primeira categoria de vagas -->
+                <ul class="vagas__lista">
+                    <h3 class="lista__titulo">Design</h3>
+                    <li class="vaga__aberta">
+                        <h4 class="lista__subtitulo">Product Designer</h4>
+                        <div class="div__conteudo-vaga">
+                            <p class="lista__text__jornada">Full-time</p>
+                            <p class="lista__text__salario">Faixa salarial: R$7.000</p>
+                        </div>
+                    </li>
+
+                    <li class="vaga__aberta">
+                        <h4 class="lista__subtitulo">UX Designer</h4>
+                        <div class="div__conteudo-vaga">
+                            <p class="lista__text__jornada">Full-time</p>
+                            <p class="lista__text__salario">Faixa salarial: R$6.000</p>
+                        </div>
+                    </li>
+                </ul>
+
+                <!-- segunda categoria de vagas -->
+                <ul class="vagas__lista">
+                    <h3 class="lista__titulo">Desenvolvimento de Software</h3>
+                    <li class="vaga__aberta">
+                        <h4 class="lista__subtitulo">Desenvolvedor(a) iOS</h4>
+                        <div class="div__conteudo-vaga">
+                            <p class="lista__text__jornada">Full-time</p>
+                            <p class="lista__text__salario">Faixa salarial: R$8.000</p>
+                        </div>
+                    </li>
+
+                    <li class="vaga__aberta">
+                        <h4 class="lista__subtitulo">Desenvolvedor(a) Front-end</h4>
+                        <div class="div__conteudo-vaga">
+                            <p class="lista__text__jornada">Full-time</p>
+                            <p class="lista__text__salario">Faixa salarial: R$7.000</p>
+                        </div>
+                    </li>
+
+                    <li class="vaga__aberta">
+                        <h4 class="lista__subtitulo">Desenvolvedor(a) Back-end</h4>
+                        <div class="div__conteudo-vaga">
+                            <p class="lista__text__jornada">Full-time</p>
+                            <p class="lista__text__salario">Faixa salarial: R$8.000</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Depoimentos -->
+    <section class="depoimentos">
+        <div class="depoimento__conteudo">
+            <p class="depoimento__titulo">Veja o que nossos colaboradores falam sobre nós</p>
+            <p class="depoimento__texto">
+                OptimusTech se importa com a saúde dos seus colaboradores e sempre procura nos dar todo tipo de auxílio possível.
+            </p>
+            <div class="depoimento__perfil">
+                <img src="./image/perfil.svg" alt="Perfil do usuario do depoimento" class="depoimento__imagem">
+                <span class="depoimento__perfil-nome">Júlia Castro</span>
+                <span class="depoimento__perfil-cargo">Desenvolvedora Web</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- rodapé -->
+    <footer class="rodape">
+        <h2 class="rodape__titulo">Acompanhe as nossas oportunidades</h2>
+        <p class="rodape__texto">
+            Seja o primeiro a saber quando novas vagas serão abertas!
+        </p>
+        <form class="rodape__form">
+            <input type="email" name="email" id="email" placeholder="Seu e-mail" class="rodape__input-email">
+            <input type="submit" value="Cadastrar" class="button__cadastrar">
+        </form>
+        <p class="rodape__credito">© 2022 OptimusTech. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
